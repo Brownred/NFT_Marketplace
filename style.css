@@ -128,20 +128,63 @@ body {
   color: var(--txt-color);
 }
 
+
+/* ==== Buttons ==== */
+
+.primary-btn-filled {
+  /* Goes with H5 Work Sans bold text */
+  background-color: var(--call-to-action);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 50px;
+  width: 206px;
+  height: 72px;
+  border-style: none;
+  border-radius: 20px;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+
+.secondary-btn-filled {
+  /* Goes with H5 Work Sans bold text */
+  background-color: var(--call-to-action);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 47px;
+  width: 186px;
+  height: 60px;
+  border-style: none;
+  border-radius: 20px;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0%;
+}
+
 /* ==== Navigation ==== */
 li, a {
+  color: inherit;
   text-decoration: none;
 }
 
 /* ======= Header ======= */
 .header {
   align-items: center;
-  align-self: stretch;
   display: flex;
-  width: 1280px;
+  width: 100%;
   height: 100px;
   justify-content: space-between;
-  mix-blend-mode: normal;
+  gap: auto;
   padding: 20px 50px;
   position: relative;
 }
@@ -154,22 +197,29 @@ li, a {
 .logo {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 0;
   height: 32px;
   width: 246px;
 }
 
-.logo .pic-logo {
+.logo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic-logo {
   height: 32px;
   width: 32px;
   margin-right: 5px;
 }
 
 .logo .word-logo {
-  height: 19.8px;
+  height: 20px;
   width: 199.41px;
   margin-left: 5px;
+  align-self: center;
 }
 
 
@@ -189,7 +239,7 @@ li, a {
 
 .nav-links li {
   display: flex;
-    align-items: center;
+  align-items: center;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -197,4 +247,35 @@ li, a {
 .nav-links li a:hover {
   /* put style here */
 }
+
+.sign-up-home-btn-icon {
+  width: 20px;
+  height: 20px;
+}
+
+
+/* ==== Hero Section ==== */
+.hero .container {
+  display: flex;
+  gap: 30px;
+  padding: 80px 110px;
+  height: 704px;
+  width: 100%;
+}
+
+.hero .container .frame {
+  display: flex;
+  height: 544px;
+  width: 100%;
+  gap: 30px;
+  padding: 0;
+}
+
+.hero .container .frame .col-1 {
+  display: flex;
+  flex-flow: column;
+  gap: 30px;
+  padding: 0;
+}
+
 
