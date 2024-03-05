@@ -276,6 +276,95 @@ li, a {
   flex-flow: column;
   gap: 30px;
   padding: 0;
+  width: 48.57%;
 }
 
+.hero .container .frame .col-1 .headline-subhead  {
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+  padding: 0;
+  height: 347px;
+}
 
+.get-started-btn-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.add-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  padding: 0;
+  height: 77px;
+}
+
+.hero .container .frame .col-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-flow: column;
+  padding: 0;
+  width: 51.43%;
+}
+
+.hero .container .frame .col-2 > img {
+  height: 321px;
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  align-self: flex-start;
+}
+
+.frame-230 {
+  display: grid;
+  height: 109px;
+  width: 100%;
+  gap: 10;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  align-self: flex-start;
+  padding: 20px;
+  background: var(--sec-bg-color);
+}
+
+.frame-230 .artist-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0;
+}
+
+.frame-230 .artist-card img {
+  height: 24px;
+  width: 24px;
+  border-radius: 120px;
+}
+
+.frame-87 {
+  width: 280px;
+  height: 80px;
+  align-self: center;
+  display: grid;
+  grid-template-columns: 89px 113px;
+  gap: 18px;
+  padding: 20px 30px;
+  background: var(--sec-bg-color);
+  border-radius: 20px;
+  border: 1px solid #858584;
+}
+
+.frame-85,
+.frame-86{
+  display: grid;
+  gap: 5px;
+}
+
+.p1 {
+  color: #858584;
+}
+
+.frame-86 {
+  align-items: end;
+}
